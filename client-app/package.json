@@ -11,6 +11,8 @@
     "@types/react": "^17.0.48",
     "@types/react-dom": "^18.0.6",
     "axios": "^0.27.2",
+    "mobx": "^6.6.1",
+    "mobx-react-lite": "^3.4.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "semantic-ui-css": "^2.4.1",
@@ -47,7 +49,7 @@
     "@types/uuid": "^8.3.4",
     "react-scripts": "5.0.1"
   },
-  "resolutions" : {
-    "nth-check":"2.0.1"
-   }
+  "resolutions": {
+    "nth-check": "2.0.1"
+  }
 }
