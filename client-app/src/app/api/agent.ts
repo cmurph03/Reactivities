@@ -15,7 +15,7 @@ axios.defaults.baseURL = 'http://localhost:5000/api';
 
 axios.interceptors.request.use(config => {
     const token = store.commonStore.token;
-    if (token && config.headers != undefined) config.headers.Authorization = `Bearer ${token}`
+    if (token && config.headers !== undefined) config.headers.Authorization = `Bearer ${token}`
     return config;
 })
 
